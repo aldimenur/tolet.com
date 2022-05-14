@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.banner-bottom-layer {
+  background-color: white;
+  padding: 0 40px;
+  align-content: center;
+  justify-content: center;
+}
+
+.banner-container {
+  height: 80px;
+  width: auto;
+  color: rgb(72, 75, 255);
+}
+
+/* class wajib huruf kecil  */
+
+.H1 {
+  text-align: left;
+  margin: 0px;
+}
+
+.menu-navbar-tombol {
+  color: rgb(43, 68, 255);
+  background-color: white;
+  box-shadow: 0 0 9px rgba(128, 128, 128, 0.237);
+  font-size: 12px;
+  margin: 0 0 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  border: 0px;
+}
+.menu-navbar-tombol:hover {
+  color: #61dafb;
+  background-color: #282c34;
+}
+.menu-navbar-tombol:active {
+  transform: translateY(2px);
+}
+.banner-covid {
+  line-height: 35px;
+  background-color: rgb(40, 58, 78);
+  text-align: center;
+  color: white;
+  height: 40px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.banner-covid a {
+  color: #ff6565;
+  text-decoration: none;
+}
+
+.header-right-side-link {
+  color: rgb(62, 62, 62);
+  text-decoration: none;
+  margin: 0 10px;
+  display: block;
+}
+
+.header-right-side {
+  font-weight: 400;
+  align-items: center;
+}
+
+a.header-right-side-link {
+  font-size: 10px;
+}
+
+.header-left-side {
+  line-height: 40px;
+  float: left;
+}
+
+.header-right-side {
+  line-height: 80px;
+  float: right;
+  vertical-align: middle;
+}
+
+.top-bar-layer {
+  background-color: beige;
+  width: auto;
+  height: 30px;
+  padding: 5px;
+}
+
+.top-bar-left-side {
+  line-height: 20px;
+  margin: 0 30px;
+  font-size: 14px;
+  float: left;
+}
+
+.top-bar-align {
+  display: flex;
+}
+
+.top-bar-link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #282c34;
+}
+
+.top-bar-right-side {
+  line-height: 5px;
+  padding: 0 30px;
+  float: right;
+}
+
+.language-button {
+  width: 50px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 2px 10px;
+  color: rgb(255, 255, 255);
+  background-color: #282c34;
+  border-radius: 15px;
+}

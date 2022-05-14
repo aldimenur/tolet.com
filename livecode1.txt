@@ -1,0 +1,36 @@
+NAH IKU NPM FUND
+gpp iku
+ngkok dipindah file" component ae nk folder anyar
+aneeh njir
+wes isok
+karek mindah file ku sakdurunge yp
+wes isok. lanjutkan
+NICE CO
+iki sakjane ape takok yaopo gae login page
+REVIEW EN SEK AE 
+lk nk halaman login e emg jek onk menu ne yo
+
+sek bingung lak misah page e yp , iku mek ganti component tok kan y
+nk app js iku diisi daftar routes" ae, sek tak keki connto 
+
+
+lak ono iki ae responsiv e cek en , aku gae burger gaiso mau
+yowes ngkok pisahen div Top-section iku, ojk dideleh App.js, lk deleh kunu otomatis kabeh halaman duwe menu
+kan onk bbrp halaman seng ga butuh menu
+lk burger menu main css isok, gae tailwind
+nk file op burger e
+njir tak kiro iku icon/svg tibaakno div :v
+asw
+karek gaweno tampilan menu lk dibuk
+a nk hp op laayar cilik, lk gae hide mbe visible ccarane kek mau
+disimpen nk state
+tak turu sek :v
+
+JMBT 
+SUWON SWOJN
+ngkok bengi ak mbe ysb nk bolot
+melok o
+onk faaisal ssisan
+
+LPO NG KNO
+dolen

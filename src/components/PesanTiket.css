@@ -1,0 +1,70 @@
+.background {
+  margin: 10px 0px;
+}
+.pesan-tiket-background {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 800px;
+  height: 380px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.136);
+}
+
+.pesan-tiket-top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgb(255, 248, 196);
+  height: 5em;
+  border-radius: 20px;
+}
+
+.pesan-tiket-top-section-left-side {
+  display: inline-block;
+  width: 200px;
+  margin: 0px;
+}
+.pesan-tiket-top-section-right-side {
+  display: flex;
+  justify-content: right;
+}
+
+.pesan-tiket-middle-section {
+  display: flex;
+}
+
+.pesan-tiket-middle-section-top {
+  display: flex;
+  align-items: center;
+}
+.perjalanan-tiket {
+  display: block;
+  padding: 10px 50px;
+}
+p {
+  color: rgb(57, 57, 57);
+}
+
+.title-section {
+  display: inline-block;
+  margin: 0px;
+}
+
+.sub-tittle-section {
+  font-size: large;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.icon-pesan-tiket {
+  display: inline;
+  outline: rgb(78, 78, 78) solid 2px;
+  margin: 0 5px;
+  padding: 5px;
+  max-width: 40px;
+  background-color: white;
+  border-radius: 15px;
+}
