@@ -1,5 +1,4 @@
 .navbar-container {
-  display: flex;
   background-color: white;
   justify-content: space-around;
   grid-template-columns: repeat(2, 1fr);

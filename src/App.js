@@ -2,21 +2,17 @@ import { Routes, Route, Link } from "react-router-dom";
 import * as React from "react";
 import "./App.css";
 import "./index.css";
-import TopBar from "./components/TopBar";
-import BannerCovid from "./components/BannerCovid";
-import Navbar from "./components/Navbar";
 import Isi from "./components/Isi";
 import Card from "./components/Card";
 import PesanTiket from "./components/PesanTiket";
 import Login from "./components/Login";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
       <div className="Top-section bg-gray-800 h-96 ">
-        <BannerCovid />
-        <TopBar />
-        <Navbar />
+        <Navigation />
         <Card />
         <PesanTiket />
       </div>
