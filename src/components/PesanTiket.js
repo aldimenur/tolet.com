@@ -68,10 +68,12 @@ const PesanTiket = () => {
         <div className="pesan-tiket-bottom-section">
           <div className="pesan-tiket-middle-section-bottom flex m-3">
             <div className="radio-1 px-2 font-thin">
-              <input type="radio" className="mx-4" id="1"></input>Sekali Jalan
+              <input type="radio" className="mx-4" name="input-tiket"></input>
+              Sekali Jalan
             </div>
             <div className="radio-1 px-2 font-thin">
-              <input type="radio" className="mx-4" id="1"></input>Pulang-Pergi
+              <input type="radio" className="mx-4" name="input-tiket"></input>
+              Pulang-Pergi
             </div>
           </div>
         </div>
