@@ -8,6 +8,10 @@ import PesanTiket from "./components/PesanTiket";
 import Login from "./components/Login";
 import Navigation from "./components/Navigation";
 
+// const CardStyle = styled.div`
+//   background-color: blue;
+// `;
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,7 @@ function App() {
       </div>
       <div className="login-section align-middle fixed p-24 m-6 bg-red-400 rounded-lg drop-shadow-xl float-left">
         <Isi />
+        {/* <CardStyle></CardStyle> */}
         <Routes>
           {/* iki ws bener awkm cara gae routing e */}
           <Route path="/login" element={<Login />} />
