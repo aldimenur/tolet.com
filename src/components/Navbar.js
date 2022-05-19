@@ -7,10 +7,7 @@ const Navbar = () => {
     setVisibleMenu(!visibleMenu);
   };
   return (
-    <div
-      Navbar
-      className={`navbar-container ${visibleMenu ? "block" : "flex"}`}
-    >
+    <div className={`navbar-container ${visibleMenu ? "block" : "flex"}`}>
       <div className="navbar-left-side flex align-middle center">
         <div className={`"logo-place" ${visibleMenu ? "mx-auto" : "mx-0"}`}>
           <img
@@ -100,7 +97,7 @@ const Navbar = () => {
           Daftar
         </a>
         <div
-          className={`close w-5 ${visibleMenu ? "block" : "hidden"} `}
+          className={`h-7 w-5 ${visibleMenu ? "block" : "hidden"} `}
           onClick={handleClickBurger}
         >
           <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png" />
