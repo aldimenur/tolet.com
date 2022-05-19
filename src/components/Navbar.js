@@ -58,7 +58,7 @@ const Navbar = () => {
         </a>
       </div>
       <div
-        className={`space-y-2 sm:hidden ${visibleMenu ? "mx-auto" : "mx-0"}`}
+        className={`space-y-2 sm:hidden ${visibleMenu ? "hidden" : "mx-0"}`}
         onClick={handleClickBurger}
       >
         <div className="w-8 h-0.5 bg-gray-600"></div>
@@ -99,6 +99,12 @@ const Navbar = () => {
         <a href="#" className="text:xl md:text-base my-2">
           Daftar
         </a>
+        <div
+          className={`close w-5 ${visibleMenu ? "block" : "hidden"} `}
+          onClick={handleClickBurger}
+        >
+          <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png" />
+        </div>
       </div>
     </div>
   );

@@ -11,20 +11,21 @@ import { CardStyle } from "./components/Components.styled";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <div className="Top-section bg-gray-800 h-96 ">
         <Navigation />
         <Card />
         <PesanTiket />
-      </div>
-      <div className="login-section align-middle fixed p-24 m-6 bg-red-400 rounded-lg drop-shadow-xl float-left">
-        <Isi />
-        <CardStyle> YAYAYA </CardStyle>
-        <Routes>
-          {/* iki ws bener awkm cara gae routing e */}
-          <Route path="/login" element={<Login />} />
-        </Routes>
-        <Link to="/Login">Login</Link>
+        <div className="login-section bg-green-400 w-full px-9 mx-auto w-64">
+          <Isi />
+          <CardStyle> YAYAYA </CardStyle>
+          <Routes>
+            <Route path="/Login" element={<Login />} />
+          </Routes>
+          <div className="text-center">
+            <Link to="/Login">Login</Link>
+          </div>
+        </div>
       </div>
     </div>
   );

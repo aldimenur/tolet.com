@@ -8,7 +8,7 @@ function Login() {
         <h2>INI TEMPAT LOGIN NANTI</h2>
       </main>
       <nav>
-        <Link to="/about">Back</Link>
+        <Link to="/About">Back</Link>
       </nav>
     </>
   );

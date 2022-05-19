@@ -4,9 +4,9 @@ import "./Isi.css";
 
 const Isi = () => {
   return (
-    <div className="isi-page text-white font-bold">
+    <div className="isi-page text-white font-bold items-center text-center">
       Ini Isi Page
-      <div className="isi-page-img">
+      <div className="isi-page-img place-content-center">
         <img
           className="h-5 w-4"
           src="https://www.pngkey.com/png/full/23-237027_location-icon-transparent-we-are-here-icon-png.png"
