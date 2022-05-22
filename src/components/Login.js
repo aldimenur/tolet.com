@@ -1,16 +1,15 @@
-import { Routes, Route, Link } from "react-router-dom";
 import * as React from "react";
+import LoginPage from "./LoginPage";
+import Navigation from "./Navigation";
 
 function Login() {
   return (
-    <>
-      <main>
-        <h2>INI TEMPAT LOGIN NANTI</h2>
-      </main>
-      <nav>
-        <Link to="/About">Back</Link>
-      </nav>
-    </>
+    <div className="w-full h-full">
+      <Navigation />
+      <div>
+        <LoginPage />
+      </div>
+    </div>
   );
 }
 

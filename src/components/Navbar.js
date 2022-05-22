@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [visibleMenu, setVisibleMenu] = useState(false);
@@ -7,14 +8,16 @@ const Navbar = () => {
     setVisibleMenu(!visibleMenu);
   };
   return (
-    <div className={`navbar-container ${visibleMenu ? "block" : "flex"}`}>
+    <div className={`navbar-container ${visibleMenu ? "block" : "flex"} z-20`}>
       <div className="navbar-left-side flex align-middle center">
         <div className={`"logo-place" ${visibleMenu ? "mx-auto" : "mx-0"}`}>
-          <img
-            className="logo"
-            src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/logo/2020/09/01/7379dfd8-c9cc-4fb9-896f-6374a766cefc-1598927204969-fab786a46eee63c306f89837093520a4.png"
-            alt=""
-          />
+          <Link to={"/"}>
+            <img
+              className="logo"
+              src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/logo/2020/09/01/7379dfd8-c9cc-4fb9-896f-6374a766cefc-1598927204969-fab786a46eee63c306f89837093520a4.png"
+              alt=""
+            />
+          </Link>
         </div>
       </div>
       <div className={`left-nav sm:flex items-center hidden`}>
@@ -44,15 +47,12 @@ const Navbar = () => {
         <a href="#" className="text-xs md:text-base">
           Cek Order
         </a>
-        <a href="#" className="text-xs md:text-base">
-          Login
-        </a>
-        <a
-          href="#"
-          className="bg-white drop-shadow-xl rounded-3xl text-blue-600 hover:text-blue-900"
-        >
-          Daftar
-        </a>
+        <div className="text-xs md:text-base">
+          <Link to="/login">Login</Link>
+        </div>
+        <div className="bg-white drop-shadow-xl rounded-3xl text-blue-600 hover:text-blue-900">
+          <Link to={"/register"}>Daftar</Link>
+        </div>
       </div>
       <div
         className={`space-y-2 sm:hidden ${visibleMenu ? "hidden" : "mx-0"}`}
@@ -90,12 +90,12 @@ const Navbar = () => {
         <a href="#" className="text:xl md:text-base my-2">
           Cek Order
         </a>
-        <a href="#" className="text:xl md:text-base my-2">
-          Login
-        </a>
-        <a href="#" className="text:xl md:text-base my-2">
-          Daftar
-        </a>
+        <div className="text:xl md:text-base my-2">
+          <Link to="/login">Login</Link>
+        </div>
+        <div className="text:xl md:text-base my-2">
+          <Link to={"/register"}>Daftar</Link>
+        </div>
         <div
           className={`h-7 w-5 ${visibleMenu ? "block" : "hidden"} `}
           onClick={handleClickBurger}
