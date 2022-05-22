@@ -2,7 +2,7 @@ import React from "react";
 
 function PesanTiketMobile() {
   return (
-    <div className="flex align-middle justify-center">
+    <div className="flex align-middle justify-center sm:hidden">
       <div className="bg-slate-600 w-80 h-max rounded-lg">
         <div className="row-atas border-2 h-1/3 rounded-lg flex justify-center">
           <span className="m-4 text-lg font-bold text-white">

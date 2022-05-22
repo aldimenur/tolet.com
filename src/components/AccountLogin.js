@@ -4,7 +4,7 @@ import { FaLock } from "react-icons//fa";
 
 const AccountLogin = () => {
   return (
-    <div className="my-20 mx-8 border-2 border-gray-200 rounded-xl flex-col flex items-center justify-center">
+    <div className="my-20 mx-8 border-2 border-gray-200 rounded-xl flex-col flex items-center justify-center sm:w-96 sm:mx-auto">
       <div className="items-center border-b-2 border-b-gray-100 w-full justify-center flex h-10 text-green-600 font-bold">
         <FaLock className="mx-3"></FaLock>
         Account Login

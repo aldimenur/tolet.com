@@ -9,8 +9,8 @@ const IsiHomePage = () => {
       <Navigation />
       <div>
         <IsiCard />
-        <PesanTiketMobile />
         <PesanTiket />
+        <PesanTiketMobile />
       </div>
     </div>
   );

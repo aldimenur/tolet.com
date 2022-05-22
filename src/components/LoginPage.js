@@ -6,7 +6,7 @@ import { SliderData } from "./SliderData";
 const LoginPage = () => {
   return (
     <div>
-      <div className="slide-show bg-slate-300 h-full my-5">
+      <div className="slide-show bg-slate-300 h-full my-5 sm:my-10">
         <ImageSlider slides={SliderData} />
       </div>
       <AccountLogin />
