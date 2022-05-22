@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
 import * as React from "react";
+import { FaRegClipboard } from "react-icons/fa";
 
 function Register() {
   return (
@@ -12,7 +13,8 @@ function Register() {
           FORM
         </div>
         <div className="h-20 w-full bg-red-900 justify-center items-center flex rounded-b-xl">
-          <nav>
+          <nav className="flex">
+            <FaRegClipboard />
             <Link to="/"> BACK BUTTON</Link>
           </nav>
         </div>
