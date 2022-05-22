@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./Footer";
 import LoginPage from "./LoginPage";
 import Navigation from "./Navigation";
 
@@ -8,6 +9,9 @@ function Login() {
       <Navigation />
       <div>
         <LoginPage />
+      </div>
+      <div className="mt-7 border-t-2">
+        <Footer />
       </div>
     </div>
   );

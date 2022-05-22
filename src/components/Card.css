@@ -18,3 +18,8 @@
   margin: 10px;
   color: rgb(0, 0, 0);
 }
+
+.card-home:hover {
+  width: 400px;
+  transition: ease-in-out 500ms;
+}

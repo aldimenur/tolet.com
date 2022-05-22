@@ -20,3 +20,8 @@
   max-width: 120px;
   margin: 20px;
 }
+
+.burger-menu:hover {
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}

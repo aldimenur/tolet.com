@@ -55,7 +55,9 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`space-y-2 sm:hidden ${visibleMenu ? "hidden" : "mx-0"}`}
+        className={`burger-menu space-y-2 sm:hidden ${
+          visibleMenu ? "hidden" : "mx-0"
+        }`}
         onClick={handleClickBurger}
       >
         <div className="w-8 h-0.5 bg-gray-600"></div>
