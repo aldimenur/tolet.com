@@ -10,7 +10,7 @@ function Login() {
       <div>
         <LoginPage />
       </div>
-      <div className="mt-7 border-t-2">
+      <div className="mt-7 border-t-2 absolute w-full">
         <Footer />
       </div>
     </div>

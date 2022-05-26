@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import LoginVerif from "./components/LoginVerif";
 import { useState } from "react";
+import EliteReward from "./components/EliteReward";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
         <Route path="loginverif" element={<LoginVerif />} />
+        <Route path="elitereward" element={<EliteReward />} />
       </Routes>
     </Router>
   );

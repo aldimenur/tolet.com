@@ -41,14 +41,14 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-right-side hidden sm:flex">
-        <a href="#" className="text-xs md:text-base">
-          Elite Rewards
-        </a>
+        <div href="#" className="text-xs md:text-base">
+          <Link to={"/elitereward"}> Elite Rewards</Link>
+        </div>
         <a href="#" className="text-xs md:text-base">
           Cek Order
         </a>
         <div className="text-xs md:text-base">
-          <Link to="/login">Login</Link>
+          <Link to={"/login"}>Login</Link>
         </div>
         <div className="bg-white drop-shadow-xl rounded-3xl text-blue-600 hover:text-blue-900">
           <Link to={"/register"}>Daftar</Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
           Hotel
         </a>
         <a href="#" className="text:xl md:text-base my-2">
-          To Do{" "}
+          To Do
         </a>
         <a href="#" className="text:xl md:text-base my-2">
           Tiket Kereta Api
@@ -86,14 +86,14 @@ const Navbar = () => {
         <a href="#" className="text:xl md:text-base my-2">
           Event
         </a>
-        <a href="#" className="text:xl md:text-base my-2">
-          Elite Rewards
-        </a>
+        <div href="#" className="text:xl md:text-base my-2">
+          <Link to={"/elite-reward"}> Elite Rewards</Link>
+        </div>
         <a href="#" className="text:xl md:text-base my-2">
           Cek Order
         </a>
         <div className="text:xl md:text-base my-2">
-          <Link to="/login">Login</Link>
+          <Link to={"/login"}>Login</Link>
         </div>
         <div className="text:xl md:text-base my-2">
           <Link to={"/register"}>Daftar</Link>
