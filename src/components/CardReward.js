@@ -4,7 +4,7 @@ function CardReward(prope) {
   return (
     <>
       <div
-        className="border w-72 h-40 my-2 bg-cover rounded-md drop-shadow-md"
+        className="border w-72 h-40 my-2 bg-cover rounded-md drop-shadow-md sm:w-1/2 sm:h-96"
         style={{ backgroundImage: `url("${prope.bg}")` }}
       >
         <div className="text-center m-4">

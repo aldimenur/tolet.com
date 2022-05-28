@@ -49,6 +49,7 @@ function EliteReward() {
         <CardReward number="2" name="ANJAY" bg="https://picsum.photos/800" />
         <CardReward number="3" name="BISA" bg="https://picsum.photos/600" />
         <CardReward number="4" name="DICOBA" bg="https://picsum.photos/500" />
+        <CardReward number="5" name="GAK" bg="https://picsum.photos/550" />
       </div>
       <Footer />
     </div>
