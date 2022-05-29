@@ -3,7 +3,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import BannerCovid from "./BannerCovid";
 import TopBar from "./TopBar";
-import { useState } from "react";
 import IsiRegister from "./IsiRegister";
 
 function Register() {

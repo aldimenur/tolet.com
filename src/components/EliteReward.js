@@ -6,23 +6,36 @@ import Footer from "./Footer";
 
 function EliteReward() {
   var bgList = [
-    { id: "1", bg: "https://picsum.photos/5523" },
-    { id: "2", bg: "https://picsum.photos/2444" },
-    { id: "3", bg: "https://picsum.photos/2322" },
-    { id: "4", bg: "https://picsum.photos/3222" },
+    { id: 1, url: "https://picsum.photos/1423" },
+    { id: 2, url: "https://picsum.photos/1444" },
+    { id: 3, url: "https://picsum.photos/1322" },
+    { id: 4, url: "https://picsum.photos/1222" },
   ];
 
-  const [bg, setBg] = useState((eBg) => "https://picsum.photos/920");
+  const [selectedBg, setSelectedBg] = useState(bgList[3]);
 
   function handleBack() {
-    setBg((hBg) => "https://picsum.photos/1222");
-  }
-  function handleNext() {
-    setBg((hBg) => "https://picsum.photos/1426");
+    if (selectedBg.id > 1) {
+      console.log(selectedBg.id);
+      setSelectedBg(bgList.find((bg) => bg.id === selectedBg.id - 1));
+    } else {
+      alert("BACKGROUND HABIS GOBLOG!");
+    }
   }
 
+  function handleNext() {
+    if (selectedBg.id < 4) {
+      console.log(selectedBg.id);
+      setSelectedBg(bgList.find((bg) => bg.id === selectedBg.id + 1));
+    } else {
+      alert("BACKGROUND HABIS GOBLOG!");
+    }
+  }
+
+  console.log(selectedBg);
+
   return (
-    <div style={{ backgroundImage: `url("${bg}")` }}>
+    <div style={{ backgroundImage: `url("${selectedBg.url}")` }}>
       <div>
         <Navbar />
       </div>

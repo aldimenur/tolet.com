@@ -8,6 +8,7 @@ import Register from "./components/Register";
 import LoginVerif from "./components/LoginVerif";
 import { useState } from "react";
 import EliteReward from "./components/EliteReward";
+import CekOrder from "./components/CekOrder";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="loginverif" element={<LoginVerif />} />
         <Route path="elitereward" element={<EliteReward />} />
+        <Route path="cekorder" element={<CekOrder />} />
       </Routes>
     </Router>
   );

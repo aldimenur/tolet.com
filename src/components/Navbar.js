@@ -44,9 +44,9 @@ const Navbar = () => {
         <div href="#" className="text-xs md:text-base">
           <Link to={"/elitereward"}> Elite Rewards</Link>
         </div>
-        <a href="#" className="text-xs md:text-base">
-          Cek Order
-        </a>
+        <div href="#" className="text-xs md:text-base">
+          <Link to={"/cekorder"}>Cek Order</Link>
+        </div>
         <div className="text-xs md:text-base">
           <Link to={"/login"}>Login</Link>
         </div>
@@ -87,11 +87,11 @@ const Navbar = () => {
           Event
         </a>
         <div href="#" className="text:xl md:text-base my-2">
-          <Link to={"/elite-reward"}> Elite Rewards</Link>
+          <Link to={"/elitereward"}> Elite Rewards</Link>
         </div>
-        <a href="#" className="text:xl md:text-base my-2">
-          Cek Order
-        </a>
+        <div href="#" className="text:xl md:text-base my-2">
+          <Link to={"/cekorder"}>Cek Order</Link>
+        </div>
         <div className="text:xl md:text-base my-2">
           <Link to={"/login"}>Login</Link>
         </div>
