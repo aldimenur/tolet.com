@@ -3,17 +3,29 @@ import { useEffect, useState } from "react";
 
 function CekOrderList() {
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    return () => {
+      document.title = "Halaman Cek Order";
+    }
+  }, [])
+
+  const [album, getAlbum] = useState("")
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/albums")
       .then((response) => response.json())
-      .then((json) => setUsers(json));
   }, []);
 
-  const [users, setUsers] = useState([]);
+  function handleResponse(url) {
+  }
+
+  function cobaPrompt() {
+    prompt("Please enter")
+  }
 
   return (
-    <div>
-      <div className="flex">
-        {users.map((user) => JSON.stringify(user.email))}
+    <div className="flex justify-center">
+      <div className="border w-52 flex justify-center">
+        {album} ini Nanti Album
       </div>
     </div>
   );

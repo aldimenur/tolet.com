@@ -1,16 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import * as React from "react";
 import "./App.css";
 import "./index.css";
-import IsiHomePage from "./components/IsiHomePage";
-import Login from "./components/Login";
-import Register from "./components/Register";
-import LoginVerif from "./components/LoginVerif";
-import { useState } from "react";
-import EliteReward from "./components/EliteReward";
-import CekOrder from "./components/CekOrder";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { IsiHomePage, Login, Register, LoginVerif, EliteReward, CekOrder } from "./components/index";
 
 function App() {
+
+  useEffect(() => {
+    return () => {
+      document.title = "Tiket.com Halaman Utama";
+    }
+  }, [])
+
+
   return (
     <Router>
       <Routes>
