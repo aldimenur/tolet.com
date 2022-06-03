@@ -21,30 +21,30 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`left-nav sm:flex items-center hidden`}>
-        <span href="#" className="text-xs md:text-base">
-          Tiket Pesawat
+        <span className="text-xs md:text-base">
+          <Link to={"/"}> Elite Rewards</Link>Tiket Pesawat
         </span>
-        <span href="#" className="text-xs md:text-base">
-          Hotel
+        <span className="text-xs md:text-base">
+          <Link to={"/"}> Elite Rewards</Link>Hotel
         </span>
-        <span href="#" className="text-xs md:text-base">
-          To Do{" "}
+        <span className="text-xs md:text-base">
+          <Link to={"/"}> Elite Rewards</Link>To Do
         </span>
-        <span href="#" className="text-xs md:text-base">
-          Tiket Kereta Api
+        <span className="text-xs md:text-base">
+          <Link to={"/"}> Elite Rewards</Link>Tiket Kereta Api
         </span>
-        <span href="#" className="text-xs md:text-base">
-          Sewa Mobil
+        <span className="text-xs md:text-base">
+          <Link to={"/"}> Elite Rewards</Link>Sewa Mobil
         </span>
-        <span href="#" className="text-xs md:text-base">
-          Event
+        <span className="text-xs md:text-base">
+          <Link to={"/"}> Elite Rewards</Link>Event
         </span>
       </div>
       <div className="navbar-right-side hidden sm:flex">
-        <span href="#" className="text-xs md:text-base">
+        <span className="text-xs md:text-base">
           <Link to={"/elitereward"}> Elite Rewards</Link>
         </span>
-        <span href="#" className="text-xs md:text-base">
+        <span className="text-xs md:text-base">
           <Link to={"/cekorder"}>Cek Order</Link>
         </span>
         <span className="text-xs md:text-base">
@@ -68,28 +68,28 @@ const Navbar = () => {
       <div
         className={`${visibleMenu ? "grid justify-items-center" : "hidden"}`}
       >
-        <span href="#" className="text:xl md:text-base my-2">
-          Tiket Pesawat
+        <span className="text:xl md:text-base my-2">
+          <Link to={"/"}> Elite Rewards</Link>Tiket Pesawat
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
-          Hotel
+        <span className="text:xl md:text-base my-2">
+          <Link to={"/"}> Elite Rewards</Link>Hotel
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
-          To Do
+        <span className="text:xl md:text-base my-2">
+          <Link to={"/"}> Elite Rewards</Link>To Do
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
-          Tiket Kereta Api
+        <span className="text:xl md:text-base my-2">
+          <Link to={"/"}> Elite Rewards</Link>Tiket Kereta Api
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
-          Sewa Mobil
+        <span className="text:xl md:text-base my-2">
+          <Link to={"/"}> Elite Rewards</Link>Sewa Mobil
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
-          Event
+        <span className="text:xl md:text-base my-2">
+          <Link to={"/"}> Elite Rewards</Link>Event
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
+        <span className="text:xl md:text-base my-2">
           <Link to={"/elitereward"}> Elite Rewards</Link>
         </span>
-        <span href="#" className="text:xl md:text-base my-2">
+        <span className="text:xl md:text-base my-2">
           <Link to={"/cekorder"}>Cek Order</Link>
         </span>
         <span className="text:xl md:text-base my-2">
