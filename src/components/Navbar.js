@@ -21,38 +21,38 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`left-nav sm:flex items-center hidden`}>
-        <div href="#" className="text-xs md:text-base">
+        <span href="#" className="text-xs md:text-base">
           Tiket Pesawat
-        </div>
-        <div href="#" className="text-xs md:text-base">
+        </span>
+        <span href="#" className="text-xs md:text-base">
           Hotel
-        </div>
-        <div href="#" className="text-xs md:text-base">
+        </span>
+        <span href="#" className="text-xs md:text-base">
           To Do{" "}
-        </div>
-        <div href="#" className="text-xs md:text-base">
+        </span>
+        <span href="#" className="text-xs md:text-base">
           Tiket Kereta Api
-        </div>
-        <div href="#" className="text-xs md:text-base">
+        </span>
+        <span href="#" className="text-xs md:text-base">
           Sewa Mobil
-        </div>
-        <div href="#" className="text-xs md:text-base">
+        </span>
+        <span href="#" className="text-xs md:text-base">
           Event
-        </div>
+        </span>
       </div>
       <div className="navbar-right-side hidden sm:flex">
-        <div href="#" className="text-xs md:text-base">
+        <span href="#" className="text-xs md:text-base">
           <Link to={"/elitereward"}> Elite Rewards</Link>
-        </div>
-        <div href="#" className="text-xs md:text-base">
+        </span>
+        <span href="#" className="text-xs md:text-base">
           <Link to={"/cekorder"}>Cek Order</Link>
-        </div>
-        <div className="text-xs md:text-base">
+        </span>
+        <span className="text-xs md:text-base">
           <Link to={"/login"}>Login</Link>
-        </div>
-        <div className="bg-white drop-shadow-xl rounded-3xl text-blue-600 hover:text-blue-900">
+        </span>
+        <span className="bg-white drop-shadow-xl rounded-3xl text-blue-600 hover:text-blue-900">
           <Link to={"/register"}>Daftar</Link>
-        </div>
+        </span>
       </div>
       <div
         className={`burger-menu space-y-2 sm:hidden ${
@@ -68,36 +68,36 @@ const Navbar = () => {
       <div
         className={`${visibleMenu ? "grid justify-items-center" : "hidden"}`}
       >
-        <div href="#" className="text:xl md:text-base my-2">
+        <span href="#" className="text:xl md:text-base my-2">
           Tiket Pesawat
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           Hotel
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           To Do
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           Tiket Kereta Api
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           Sewa Mobil
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           Event
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           <Link to={"/elitereward"}> Elite Rewards</Link>
-        </div>
-        <div href="#" className="text:xl md:text-base my-2">
+        </span>
+        <span href="#" className="text:xl md:text-base my-2">
           <Link to={"/cekorder"}>Cek Order</Link>
-        </div>
-        <div className="text:xl md:text-base my-2">
+        </span>
+        <span className="text:xl md:text-base my-2">
           <Link to={"/login"}>Login</Link>
-        </div>
-        <div className="text:xl md:text-base my-2">
+        </span>
+        <span className="text:xl md:text-base my-2">
           <Link to={"/register"}>Daftar</Link>
-        </div>
+        </span>
         <div
           className={`h-7 w-5 ${visibleMenu ? "block" : "hidden"} `}
           onClick={handleClickBurger}
