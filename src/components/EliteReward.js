@@ -35,7 +35,10 @@ function EliteReward() {
   console.log(selectedBg);
 
   return (
-    <div style={{ backgroundImage: `url("${selectedBg.url}")` }}>
+    <div
+      style={{ backgroundImage: `url("${selectedBg.url}")` }}
+      className="bg-cover"
+    >
       <div>
         <Navbar />
       </div>

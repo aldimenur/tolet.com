@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function IsiRegister() {
   const [img, setImg] = useState("https://picsum.photos/450");
@@ -74,10 +74,9 @@ function IsiRegister() {
             </button>
           </div>
         </div>
-
         <div className="h-20 w-full justify-center items-center flex rounded-b-xl">
           <button className="hover:bg-white hover:border-blue-500 hover:text-blue-600 ease-in-out duration-500 font-bold border py-3 px-5 rounded-full text-gray-700 text-sm">
-            <Link to="/">Lanjutkan</Link>
+            <Link to="/"> Lanjutkan </Link>
           </button>
         </div>
       </div>

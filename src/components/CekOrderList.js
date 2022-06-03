@@ -2,24 +2,18 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 function CekOrderList() {
-  useEffect(() => {
-    return () => {
-      document.title = "Halaman Cek Order";
-    }
-  }, [])
-
-  const [album, getAlbum] = useState("")
+  const [album, getAlbum] = useState("");
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/albums")
-      .then((response) => response.json())
+    fetch("https://jsonplaceholder.typicode.com/albums").then((response) =>
+      response.json()
+    );
   }, []);
 
-  function handleResponse(url) {
-  }
+  function handleResponse(url) {}
 
   function cobaPrompt() {
-    prompt("Please enter")
+    prompt("Please enter");
   }
 
   return (
