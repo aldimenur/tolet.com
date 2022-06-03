@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import AccountLogin from "./AccountLogin";
 import ImageSlider from "./ImageSlider";
 import { SliderData } from "./SliderData";

@@ -11,41 +11,41 @@ const PesanTiket = () => {
             <p className="sub-tittle-section">Mau Kemana?</p>
           </div>
           <div className="pesan-tiket-top-section-right-side">
-            <a href="#">
+            <span href="#">
               <img
                 src="https://img.icons8.com/external-wanicon-flat-wanicon/344/external-plane-travel-wanicon-flat-wanicon.png"
                 className="icon-pesan-tiket "
                 alt="icon"
               ></img>
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span href="#">
               <img
                 src="https://img.icons8.com/external-wanicon-flat-wanicon/344/external-plane-travel-wanicon-flat-wanicon.png"
                 className="icon-pesan-tiket"
                 alt="icon"
               ></img>
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span href="#">
               <img
                 src="https://img.icons8.com/external-wanicon-flat-wanicon/344/external-plane-travel-wanicon-flat-wanicon.png"
                 className="icon-pesan-tiket"
                 alt="icon"
               ></img>
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span href="#">
               <img
                 src="https://img.icons8.com/external-wanicon-flat-wanicon/344/external-plane-travel-wanicon-flat-wanicon.png"
                 className="icon-pesan-tiket"
                 alt="icon"
               ></img>
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span href="#">
               <img
                 src="https://img.icons8.com/external-wanicon-flat-wanicon/344/external-plane-travel-wanicon-flat-wanicon.png"
                 className="icon-pesan-tiket"
                 alt="icon"
               ></img>
-            </a>
+            </span>
           </div>
         </div>
         <div className="pesan-tiket-middle-section-top-align flex justify-between">
@@ -62,7 +62,7 @@ const PesanTiket = () => {
             </div>
           </div>
           <div className="pencarian-terakhir font-bold mx-10 my-auto text-blue-900">
-            <a href="#">Pencarian Terakhir &gt;</a>
+            <span href="#">Pencarian Terakhir &gt;</span>
           </div>
         </div>
         <div className="pesan-tiket-bottom-section">
@@ -78,18 +78,18 @@ const PesanTiket = () => {
           </div>
         </div>
         <div className="pesan-tiket-bottom-section-perjalanan flex border-t-2 border-b-2 justify-around align-middle">
-          <a href="#">
+          <span href="#">
             <div className="perjalanan-tiket border-r-2">Dari Kota</div>
-          </a>
-          <a href="#">
+          </span>
+          <span href="#">
             <div className="perjalanan-tiket border-r-2">Ke Kota</div>
-          </a>
-          <a href="#">
+          </span>
+          <span href="#">
             <div className="perjalanan-tiket border-r-2">Dari Kota</div>
-          </a>
-          <a href="#">
+          </span>
+          <span href="#">
             <div className="perjalanan-tiket">Ke Kota</div>
-          </a>
+          </span>
         </div>
       </div>
     </div>
