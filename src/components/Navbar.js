@@ -22,22 +22,22 @@ const Navbar = () => {
       </div>
       <div className={`left-nav sm:flex items-center hidden`}>
         <span className="text-xs md:text-base">
-          <Link to={"/"}> Elite Rewards</Link>Tiket Pesawat
+          <Link to={"/"}>Tiket Pesawat</Link>
         </span>
         <span className="text-xs md:text-base">
-          <Link to={"/"}> Elite Rewards</Link>Hotel
+          <Link to={"/"}>Hotel</Link>
         </span>
         <span className="text-xs md:text-base">
-          <Link to={"/"}> Elite Rewards</Link>To Do
+          <Link to={"/"}>To Do</Link>
         </span>
         <span className="text-xs md:text-base">
-          <Link to={"/"}> Elite Rewards</Link>Tiket Kereta Api
+          <Link to={"/"}>Tiket Kereta Api</Link>
         </span>
         <span className="text-xs md:text-base">
-          <Link to={"/"}> Elite Rewards</Link>Sewa Mobil
+          <Link to={"/"}>Sewa Mobil</Link>
         </span>
         <span className="text-xs md:text-base">
-          <Link to={"/"}> Elite Rewards</Link>Event
+          <Link to={"/"}>Event</Link>
         </span>
       </div>
       <div className="navbar-right-side hidden sm:flex">
@@ -69,22 +69,22 @@ const Navbar = () => {
         className={`${visibleMenu ? "grid justify-items-center" : "hidden"}`}
       >
         <span className="text:xl md:text-base my-2">
-          <Link to={"/"}> Elite Rewards</Link>Tiket Pesawat
+          <Link to={"/"}>Tiket Pesawat</Link>
         </span>
         <span className="text:xl md:text-base my-2">
-          <Link to={"/"}> Elite Rewards</Link>Hotel
+          <Link to={"/"}>Hotel</Link>
         </span>
         <span className="text:xl md:text-base my-2">
-          <Link to={"/"}> Elite Rewards</Link>To Do
+          <Link to={"/"}>To Do</Link>
         </span>
         <span className="text:xl md:text-base my-2">
-          <Link to={"/"}> Elite Rewards</Link>Tiket Kereta Api
+          <Link to={"/"}>Tiket Kereta Apis</Link>
         </span>
         <span className="text:xl md:text-base my-2">
-          <Link to={"/"}> Elite Rewards</Link>Sewa Mobil
+          <Link to={"/"}>Sewa Mobil</Link>
         </span>
         <span className="text:xl md:text-base my-2">
-          <Link to={"/"}> Elite Rewards</Link>Event
+          <Link to={"/"}>Events</Link>
         </span>
         <span className="text:xl md:text-base my-2">
           <Link to={"/elitereward"}> Elite Rewards</Link>
