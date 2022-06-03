@@ -1,8 +1,15 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 function CekOrderList() {
-  const [album, getAlbum] = useState("");
+  function Album(props) {
+    return (
+      <div className="border w-52 justify-center flex">
+        {props.id}
+        {props.name}
+      </div>
+    );
+  }
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/albums").then((response) =>
@@ -10,16 +17,11 @@ function CekOrderList() {
     );
   }, []);
 
-  function handleResponse(url) {}
-
-  function cobaPrompt() {
-    prompt("Please enter");
-  }
-
   return (
     <div className="flex justify-center">
       <div className="border w-52 flex justify-center">
-        {album} ini Nanti Album
+        ini Nanti Album
+        <Album name="ALDIANSYAH" id="001" />
       </div>
     </div>
   );

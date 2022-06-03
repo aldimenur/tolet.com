@@ -21,24 +21,24 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`left-nav sm:flex items-center hidden`}>
-        <a href="#" className="text-xs md:text-base">
+        <div href="#" className="text-xs md:text-base">
           Tiket Pesawat
-        </a>
-        <a href="#" className="text-xs md:text-base">
+        </div>
+        <div href="#" className="text-xs md:text-base">
           Hotel
-        </a>
-        <a href="#" className="text-xs md:text-base">
+        </div>
+        <div href="#" className="text-xs md:text-base">
           To Do{" "}
-        </a>
-        <a href="#" className="text-xs md:text-base">
+        </div>
+        <div href="#" className="text-xs md:text-base">
           Tiket Kereta Api
-        </a>
-        <a href="#" className="text-xs md:text-base">
+        </div>
+        <div href="#" className="text-xs md:text-base">
           Sewa Mobil
-        </a>
-        <a href="#" className="text-xs md:text-base">
+        </div>
+        <div href="#" className="text-xs md:text-base">
           Event
-        </a>
+        </div>
       </div>
       <div className="navbar-right-side hidden sm:flex">
         <div href="#" className="text-xs md:text-base">
@@ -68,24 +68,24 @@ const Navbar = () => {
       <div
         className={`${visibleMenu ? "grid justify-items-center" : "hidden"}`}
       >
-        <a href="#" className="text:xl md:text-base my-2">
+        <div href="#" className="text:xl md:text-base my-2">
           Tiket Pesawat
-        </a>
-        <a href="#" className="text:xl md:text-base my-2">
+        </div>
+        <div href="#" className="text:xl md:text-base my-2">
           Hotel
-        </a>
-        <a href="#" className="text:xl md:text-base my-2">
+        </div>
+        <div href="#" className="text:xl md:text-base my-2">
           To Do
-        </a>
-        <a href="#" className="text:xl md:text-base my-2">
+        </div>
+        <div href="#" className="text:xl md:text-base my-2">
           Tiket Kereta Api
-        </a>
-        <a href="#" className="text:xl md:text-base my-2">
+        </div>
+        <div href="#" className="text:xl md:text-base my-2">
           Sewa Mobil
-        </a>
-        <a href="#" className="text:xl md:text-base my-2">
+        </div>
+        <div href="#" className="text:xl md:text-base my-2">
           Event
-        </a>
+        </div>
         <div href="#" className="text:xl md:text-base my-2">
           <Link to={"/elitereward"}> Elite Rewards</Link>
         </div>
@@ -102,7 +102,10 @@ const Navbar = () => {
           className={`h-7 w-5 ${visibleMenu ? "block" : "hidden"} `}
           onClick={handleClickBurger}
         >
-          <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png" />
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png"
+            alt=""
+          />
         </div>
       </div>
     </div>

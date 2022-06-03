@@ -21,14 +21,8 @@ function IsiRegister() {
 
   function handleUser(f) {
     setUser(f.target.value);
-    if (user == " ") {
+    if (user === " ") {
       alert(" ANJENG GABISA PAKAI SPASI");
-      console.log("ERROR");
-    }
-  }
-
-  function userErr() {
-    if (user == 1) {
       console.log("ERROR");
     }
   }
@@ -64,7 +58,8 @@ function IsiRegister() {
               -
             </button>
             <span className="px-5">
-              Umur <a className="border px-2 border-black rounded-xl">{age}</a>
+              Umur{" "}
+              <span className="border px-2 border-black rounded-xl">{age}</span>
             </span>
             <button
               className="py px-2 border-black border rounded-full mx-4 active:border-blue-900 active:px-4 active:duration-50"
